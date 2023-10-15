@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1440px;
+    height: 669px;
+    background: #FAFAFA;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+
+
+}
+
+.header-img {
+    width: 500px;
+    height: 669px;
+
+}
+
+.header-title {
+    font-size: 65px;
+    font-weight: 700;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+
+.header-paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 150px;
+    margin-bottom: 20px;
+
+}
+
+.header-btn1 {
+    width: 160px;
+    padding: 16px 12px;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 8px;
+    border-radius: 5px;
+    background: #FF5959;
+    margin-left: 150px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFF;
+    margin-right: 50px;
+}
+
+.header-btn2 {
+    color: #707070;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    border: none;
+}
+
+.today {
+    text-align: center;
+    border-radius: 10px;
+    padding: 100px 150px;
+}
+
+.today-title {
+    color: #121212;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.today-paragraph {
+    color: #707070;
+    margin-top: 20px;
+
+}
+
+.today-list {
+    margin-top: 80px;
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    gap: 50px;
+    margin-left: 230px;
+    padding: 40px 50px;
+
+}
+
+.today-p1 {
+    padding-top: 30%;
+    width: 100px;
+    height: 60px;
+    background: #efecec;
+    color: #acaaaa;
+}
+
+.today-p2 {
+    padding-top: 30%;
+    width: 100px;
+    height: 60px;
+    background: #FEE;
+    color: #FF5959;
+
+}
+
+.today-foot {
+    margin-top: 40px;
+    color: #B3B3B3;
+}
+
+.today-foot-btn {
+    margin-top: 30px;
+    color: #FFF;
+    width: 160px;
+    padding: 16px 12px;
+    background: #FF5959;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFF;
+}
